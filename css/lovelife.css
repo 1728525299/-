@@ -1,0 +1,275 @@
+#loveLife {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #F6F6F6;
+}
+#loveLife .loveShopping,
+#loveLife .loveBeautiful {
+  width: 590px;
+  height: 532px;
+  float: left;
+  position: relative;
+}
+#loveLife .loveShopping .top,
+#loveLife .loveBeautiful .top {
+  width: 100%;
+  height: 54px;
+  background-color: #994476;
+  padding-top: 4px;
+}
+#loveLife .loveShopping .top .tit,
+#loveLife .loveBeautiful .top .tit {
+  float: left;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#loveLife .loveShopping .top .bj,
+#loveLife .loveBeautiful .top .bj {
+  float: left;
+  width: 20px;
+  height: 20px;
+  background: url("../img/lovelife/love1.png") no-repeat;
+  margin-top: 14px;
+  margin-left: 16px;
+  position: relative;
+}
+#loveLife .loveShopping .top .bj .hid_img,
+#loveLife .loveBeautiful .top .bj .hid_img {
+  position: absolute;
+  bottom: -145px;
+  left: -40px;
+  display: none;
+}
+#loveLife .loveShopping .top .bj:hover .hid_img,
+#loveLife .loveBeautiful .top .bj:hover .hid_img {
+  display: block;
+}
+#loveLife .loveShopping .top ul,
+#loveLife .loveBeautiful .top ul {
+  height: 26px;
+  margin-top: 12px;
+}
+#loveLife .loveShopping .top ul li,
+#loveLife .loveBeautiful .top ul li {
+  padding: 5px 10px;
+  margin-right: 10px;
+  float: right;
+  border: 1px solid #cccccc;
+  background-color: #AC6F93;
+}
+#loveLife .loveShopping .top ul li a,
+#loveLife .loveBeautiful .top ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #fff;
+}
+#loveLife .loveShopping .top ul li:hover,
+#loveLife .loveBeautiful .top ul li:hover {
+  border: 1px solid #fff;
+}
+#loveLife .loveShopping .btm,
+#loveLife .loveBeautiful .btm {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  width: 569px;
+  height: 35px;
+  overflow: hidden;
+}
+#loveLife .loveShopping .btm .lp,
+#loveLife .loveBeautiful .btm .lp {
+  position: absolute;
+  bottom: 14px;
+  left: 0px;
+  display: none;
+}
+#loveLife .loveShopping .btm .rp,
+#loveLife .loveBeautiful .btm .rp {
+  position: absolute;
+  bottom: 14px;
+  right: 0px;
+  display: none;
+}
+#loveLife .loveShopping .btm:hover .lp,
+#loveLife .loveBeautiful .btm:hover .lp {
+  display: block;
+  color: #8B0000;
+  cursor: pointer;
+}
+#loveLife .loveShopping .btm:hover .rp,
+#loveLife .loveBeautiful .btm:hover .rp {
+  display: block;
+  color: #8B0000;
+  cursor: pointer;
+}
+#loveLife .loveShopping .btm ul,
+#loveLife .loveBeautiful .btm ul {
+  position: absolute;
+  width: 1000%;
+  height: 100%;
+}
+#loveLife .loveShopping .btm ul li,
+#loveLife .loveBeautiful .btm ul li {
+  float: left;
+  width: 70px;
+  height: 20px;
+  padding: 0 12px 8px 12px;
+  border-right: 1px solid #ccc;
+  line-height: 20px;
+}
+#loveLife .loveShopping .btm ul li:nth-of-type(6),
+#loveLife .loveBeautiful .btm ul li:nth-of-type(6) {
+  border: none;
+}
+#loveLife .loveShopping .btm ul li a,
+#loveLife .loveBeautiful .btm ul li a {
+  display: block;
+  width: 100%;
+  height: 35px;
+}
+#loveLife .loveBeautiful .top {
+  margin-left: 10px;
+  background-color: #CA3559;
+}
+#loveLife .loveBeautiful .top ul li {
+  background-color: #D36581;
+}
+#loveLife .loveBeautiful .content .ct1 a {
+  background: url("../img/lovelife/lb1.jpg") no-repeat;
+}
+#loveLife .loveBeautiful .content .ct2 a {
+  transition: background 0.3s linear;
+}
+#loveLife .loveBeautiful .content .ct2 a:nth-of-type(1) {
+  background: url("../img/lovelife/lb2.png") no-repeat 85px 14px;
+}
+#loveLife .loveBeautiful .content .ct2 a:nth-of-type(2) {
+  background: url("../img/lovelife/lb3.png") no-repeat 85px 14px;
+}
+#loveLife .loveBeautiful .content .ct2 a:nth-of-type(3) {
+  background: url("../img/lovelife/lb4.png") no-repeat 85px 14px;
+}
+#loveLife .loveBeautiful .content .ct2 a:nth-of-type(4) {
+  background: url("../img/lovelife/lb5.png") no-repeat 85px 14px;
+}
+#loveLife .loveBeautiful .content .ct2 a:hover {
+  background-position: 75px 14px;
+}
+#loveLife .loveBeautiful .content .ct3 a {
+  transition: background 0.3s linear;
+}
+#loveLife .loveBeautiful .content .ct3 a:nth-of-type(1) {
+  background: url("../img/lovelife/lb6.jpg") no-repeat;
+}
+#loveLife .loveBeautiful .content .ct3 a:nth-of-type(2) {
+  background: url("../img/lovelife/lb7.jpg") no-repeat;
+}
+#loveLife .loveBeautiful .content .ct3 a:nth-of-type(3) {
+  background: url("../img/lovelife/lp8.jpg") no-repeat;
+}
+#loveLife .loveBeautiful .content .ct3 a:hover {
+  background-position: -8px 0;
+}
+#loveLife .content {
+  width: 590px;
+  height: 465px;
+  background-color: #F6F6F6;
+}
+#loveLife .content .ct1 {
+  float: left;
+  width: 183px;
+  height: 260px;
+  padding: 10px;
+  background: #fff;
+}
+#loveLife .content .ct1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url("../img/lovelife/lovelct1.jpg") no-repeat;
+  transition: background 0.3s linear;
+}
+#loveLife .content .ct1 a:hover {
+  background-position: -8px 0;
+}
+#loveLife .content .ct2 {
+  float: left;
+  width: 376px;
+  height: 260px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  background: #fff;
+}
+#loveLife .content .ct2 a {
+  float: left;
+  display: block;
+  width: 49%;
+  height: 49%;
+  position: relative;
+  transition: background 0.3s linear;
+}
+#loveLife .content .ct2 a:nth-of-type(1) {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  background: url("../img/lovelife/lovelct2.png") no-repeat 85px 14px;
+}
+#loveLife .content .ct2 a:nth-of-type(2) {
+  border-bottom: 1px solid #ccc;
+  background: url("../img/lovelife/lovelct3.png") no-repeat 85px 14px;
+}
+#loveLife .content .ct2 a:nth-of-type(3) {
+  border-right: 1px solid #ccc;
+  background: url("../img/lovelife/lovelct4.png") no-repeat 85px 14px;
+}
+#loveLife .content .ct2 a:nth-of-type(4) {
+  background: url("../img/lovelife/lovelct5.png") no-repeat 85px 14px;
+}
+#loveLife .content .ct2 a:hover {
+  background-position: 78px 14px;
+}
+#loveLife .content .ct2 a .pt_bi_tit {
+  font-size: 14px;
+  position: absolute;
+  left: 16px;
+  top: 20px;
+  color: #D36581;
+}
+#loveLife .content .ct2 a .pt_bi_promo {
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  width: 50px;
+  color: #666;
+}
+#loveLife .content .ct3 {
+  width: 590px;
+  height: 193px;
+  float: left;
+  background: #fff;
+}
+#loveLife .content .ct3 a {
+  display: block;
+  float: left;
+  width: 183px;
+  height: 130px;
+  transition: background 0.3s linear;
+}
+#loveLife .content .ct3 a:nth-of-type(1) {
+  background: url("../img/lovelife/lovelct7.jpg") no-repeat;
+  margin: 0 10px;
+}
+#loveLife .content .ct3 a:nth-of-type(2) {
+  background: url("../img/lovelife/lovelct8.jpg") no-repeat;
+}
+#loveLife .content .ct3 a:nth-of-type(3) {
+  background: url("../img/lovelife/lovelct9.jpg") no-repeat;
+  margin: 0 10px;
+}
+#loveLife .content .ct3 a:hover {
+  background-position: -10px 0;
+}

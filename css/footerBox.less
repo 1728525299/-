@@ -1,0 +1,94 @@
+#foot_box{
+  width: 100%;
+  background-color: #EAEAEA;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #b3afaf;
+  .slogen{
+    height: 42px;
+    padding: 20px 0;
+    ul{
+      width: 100%;
+      height: 100%;
+      li{
+        width: 267px;
+        height: 100%;
+        float: left;
+        padding-left: 30px;
+        &:nth-of-type(1) .icon{
+          background: url("../img/footer/ico_service.png") no-repeat 0 0;
+        }
+        &:nth-of-type(2) .icon{
+          background: url("../img/footer/ico_service.png") no-repeat 0 -42px;
+        }
+        &:nth-of-type(3) .icon{
+          background: url("../img/footer/ico_service.png") no-repeat 0 -86px;
+        }
+        &:nth-of-type(4) .icon{
+          background: url("../img/footer/ico_service.png") no-repeat 0 -128px;
+        }
+        .icon{
+          float: left;
+          display: block;
+          width: 36px;
+          height: 42px;
+        }
+        .info{
+          float: left;
+          margin-left: 10px;
+          height: 42px;
+          line-height: 42px;
+          font-size: 18px;
+          font-weight: bold;
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .line{
+    width: 100%;
+    border-top: 1px solid #b3afaf;
+  }
+  .shoppingGuide{
+    height: 160px;
+    .item{
+      margin-top: 20px;
+      float: left;
+      width: 198px;
+      height: 159px;
+      h5{
+        font-size: 14px;
+        font-weight: 600;
+        color: #585656;
+      }
+      ul{
+        padding-bottom: 20px;
+        li{
+          padding-top: 5px;
+          a {
+            color: #666;
+            &:hover{
+              color: #c81623;
+            }
+          }
+        }
+      }
+      &:last-child{
+        text-align: center;
+        background: url("../img/footer/ico_footer.png") no-repeat 0 10px;
+        p{
+          margin-top: 20px;
+          width: 180px;
+          height: 54px;
+        }
+        a{
+          float: right;
+          color: #666;
+          &:hover{
+            color: #c81623;
+          }
+        }
+      }
+    }
+  }
+}

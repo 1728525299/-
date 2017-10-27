@@ -1,0 +1,61 @@
+#shoppingFeature {
+  background-color: #F6F6F6;
+  width: 100%;
+  height: 100%;
+}
+#shoppingFeature .content {
+  width: 100%;
+  height: 190px;
+}
+#shoppingFeature .content a {
+  float: left;
+  display: block;
+  width: 140px;
+  height: 190px;
+  margin-right: 10px;
+  position: relative;
+}
+#shoppingFeature .content a:nth-of-type(8) {
+  margin-right: 0px;
+}
+#shoppingFeature .content a:nth-of-type(1) .entry_info {
+  background-color: rgba(153, 119, 99, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(2) .entry_info {
+  background-color: rgba(8, 118, 216, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(4) .entry_info {
+  background-color: rgba(222, 116, 92, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(3) .entry_info {
+  background-color: rgba(210, 79, 79, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(5) .entry_info {
+  background-color: rgba(104, 152, 186, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(6) .entry_info {
+  background-color: rgba(216, 194, 47, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(7) .entry_info {
+  background-color: rgba(186, 102, 147, 0.7);
+}
+#shoppingFeature .content a:nth-of-type(8) .entry_info {
+  background-color: rgba(75, 180, 130, 0.7);
+}
+#shoppingFeature .content a .entry_info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 86px;
+  color: #fff;
+  text-align: center;
+}
+#shoppingFeature .content a .entry_info h4 {
+  padding-top: 20px;
+  font-size: 16px;
+}
+#shoppingFeature .content a .entry_info p {
+  font-size: 14px;
+  padding-top: 10px;
+}

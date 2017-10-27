@@ -1,0 +1,21 @@
+.gird {
+  width: 100%;
+  height: 100px;
+  background: #E0E0E0;
+}
+.gird div {
+  height: 100%;
+}
+.gird div li {
+  float: left;
+  width: 396px;
+  height: 100px;
+}
+.gird div li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.gird div li a:hover {
+  opacity: 0.7;
+}

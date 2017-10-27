@@ -1,0 +1,227 @@
+#quality {
+  background-color: #F6F6F6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#quality .quality_content {
+  height: 530px;
+  position: relative;
+}
+#quality .quality_content .lft {
+  width: 790px;
+  height: 530px;
+  background: #F6F6F6;
+}
+#quality .quality_content .lft ul {
+  width: 100%;
+  height: 100%;
+}
+#quality .quality_content .lft ul li {
+  position: relative;
+  float: left;
+  display: block;
+  width: 390px;
+  height: 170px;
+  transition: background 0.3s linear;
+  /*注意写hover时不能再设置背景之前，不然没有效果*/
+}
+#quality .quality_content .lft ul li:nth-of-type(1) {
+  background: url("../img/quality/quality1.png");
+}
+#quality .quality_content .lft ul li:nth-of-type(2) {
+  background: url("../img/quality/quality2.png");
+  margin-left: 10px;
+}
+#quality .quality_content .lft ul li:nth-of-type(3) {
+  background: url("../img/quality/quality3.png");
+  position: relative;
+  top: 10px;
+}
+#quality .quality_content .lft ul li:nth-of-type(4) {
+  background: url("../img/quality/quality4.png");
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+#quality .quality_content .lft ul li:nth-of-type(5) {
+  background: url("../img/quality/quality5.png");
+  position: relative;
+  top: 20px;
+}
+#quality .quality_content .lft ul li:nth-of-type(6) {
+  background: url("../img/quality/quality6.png");
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+}
+#quality .quality_content .lft ul li:hover {
+  background-position: -10px 0;
+}
+#quality .quality_content .lft ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#quality .quality_content .lft ul li a .info1 {
+  background-color: rgba(114, 187, 144, 0.7);
+}
+#quality .quality_content .lft ul li a .info2 {
+  background-color: rgba(221, 210, 121, 0.7);
+}
+#quality .quality_content .lft ul li a .info3 {
+  background-color: rgba(92, 85, 102, 0.7);
+}
+#quality .quality_content .lft ul li a .info4 {
+  background-color: rgba(73, 140, 148, 0.7);
+}
+#quality .quality_content .lft ul li a .info5 {
+  background-color: rgba(134, 99, 80, 0.7);
+}
+#quality .quality_content .lft ul li a .info6 {
+  background-color: rgba(215, 140, 40, 0.7);
+}
+#quality .quality_content .lft ul li a b {
+  display: block;
+  width: 140px;
+  height: 100%;
+}
+#quality .quality_content .lft ul li a .info {
+  width: 140px;
+  height: 126px;
+  text-align: center;
+  padding-top: 44px;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+}
+#quality .quality_content .lft ul li a .info h4 {
+  width: 100px;
+  height: 44px;
+  font-size: 20px;
+  line-height: 44px;
+  margin-left: 20px;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+}
+#quality .quality_content .lft ul li a .info p {
+  width: 100px;
+  height: 32px;
+  font-size: 13px;
+  color: #fff;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#quality .quality_content .rgt {
+  width: 390px;
+  height: 530px;
+  background: yellow;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+#quality .quality_content .rgt .top {
+  width: 100%;
+  height: 350px;
+}
+#quality .quality_content .rgt .btm {
+  width: 100%;
+  height: 170px;
+  margin-top: 10px;
+}
+#quality .quality_content .rgt .btm ul {
+  width: 100%;
+  height: 100%;
+}
+#quality .quality_content .rgt .btm ul li {
+  float: left;
+  width: 190px;
+  height: 100%;
+  position: relative;
+  transition: background-position 0.3s linear;
+}
+#quality .quality_content .rgt .btm ul li:nth-of-type(1) {
+  background: url("../img/quality/quality7.png");
+}
+#quality .quality_content .rgt .btm ul li:nth-of-type(2) {
+  background: url("../img/quality/quality8.png");
+  margin-left: 10px;
+}
+#quality .quality_content .rgt .btm ul li:hover {
+  background-position: -10px 0;
+}
+#quality .quality_content .rgt .btm ul li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#quality .quality_content .rgt .btm ul li a b {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 190px;
+  height: 80px;
+}
+#quality .quality_content .rgt .btm ul li a .info1 {
+  background-color: rgba(114, 187, 144, 0.7);
+}
+#quality .quality_content .rgt .btm ul li a .info2 {
+  background-color: rgba(221, 210, 121, 0.7);
+}
+#quality .quality_content .rgt .btm ul li a .info {
+  width: 100px;
+  height: 80px;
+  text-align: center;
+  padding-top: 44px;
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+}
+#quality .quality_content .rgt .btm ul li a .info h4 {
+  width: 100px;
+  height: 34px;
+  font-size: 20px;
+  line-height: 34px;
+  margin-top: 8px;
+  margin-left: 45px;
+  color: #fff;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  box-sizing: border-box;
+}
+#quality .quality_content .rgt .btm ul li a .info p {
+  width: 190px;
+  height: 32px;
+  font-size: 14px;
+  color: #fff;
+  margin-left: 0px;
+  margin-top: 10px;
+}
+/*公共的头部栏*/
+.pubhead {
+  height: 55px;
+  text-align: center;
+  position: relative;
+  padding-top: 20px;
+}
+.pubhead .line {
+  width: 500px;
+  border-top: 1px dashed #ccc;
+}
+.pubhead .line:nth-of-type(1) {
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+.pubhead .line:nth-of-type(2) {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+.pubhead span {
+  font-size: 28px;
+  font-weight: normal;
+  color: #000;
+  padding: 0 20px;
+}

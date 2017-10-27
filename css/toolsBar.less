@@ -1,0 +1,48 @@
+#toolsBar {
+  width: 35px;
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  border: 1px solid red;
+  display: none;
+  .top {
+    height: 216px;
+    width: 35px;
+    ul {
+      li {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        z-index: 999;
+        margin-top: 1px;
+        background-color: #7a6e6e;
+        &:before{
+          content: "";
+          display: table;
+        }
+        &:nth-of-type(1) a{
+          background: url("../img/toolbars.png") -94px -212px;
+        }
+        &:nth-of-type(2) a{
+          background: url("../img/toolbars.png") -78px -16px;
+
+        }
+        a {
+          display: block;
+          height: 20px;
+          width: 20px;
+          margin-top: 6px;
+          margin-left: 6px;
+        }
+        p {
+          display: none;
+          position: absolute;
+          top: 0;
+          left: -54px;
+          padding: 10px 5px;
+          background: #d7d7d7;
+        }
+      }
+    }
+  }
+}
